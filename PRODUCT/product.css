@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+}
+.container1 {
+    height: 420px;
+    width: 300px;
+    /* background-color: aqua; */
+    border-radius: 5px;
+    position: relative;
+}
+.container2 {
+    height: 400px;
+    width: 310px;
+    background-color: white;
+}
+#one{
+    /* background-image: url("img1.jpg"); */
+    /* background-size: cover; */
+    height: 420px;
+    width: 300px;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+#para1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 22px;
+}
+#para2 {
+    margin-top:5px;
+    margin-left: 40px;
+    font-size: 15px;
+    color: green;
+}
+#detail {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.size-select {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#size {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.size-select input:checked + span {
+    color: blue;
+    font-weight: 600;
+}
+span {
+    margin-left: 20px; 
+}
+.size-select input {
+    display: none;
+}
+
+.color-select {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+ #color {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.color-select input {
+    margin-left: 15px;
+    display: none; 
+}
+.color-select input:checked + span {
+    font-weight: 700;
+}
+
+.color-select span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+#color1 {
+    color: red;
+}
+#color2 {
+    color: green;
+}
+#color3 {
+    color: blue;
+}
+#color4 {
+    color: yellow;
+}
+
+.number {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.number p {
+    margin-right: 10px;
+}
+.number input {
+    width: 40px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+button {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 75%;
+    height: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+}
+.controls {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+.btns {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 5px;
+    cursor: pointer;
+}
